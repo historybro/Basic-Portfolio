@@ -1,0 +1,213 @@
+/* Link Stuff */
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #808080;
+}
+  
+a:hover {
+  text-decoration: underline;
+  color: #c0c0c0;
+}
+  
+a:active {
+  text-decoration: underline;
+  color:red;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Base HTML */
+html {
+  position: relative;
+}
+
+html, body {
+  font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+  background-image: url('../images/prism.png');
+  color: #777777;
+  background-color: #eeffee;
+}
+
+h1 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;  
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #cccccc;
+  background-color: #ffffff;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#gsmname, #nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+#gsmname {
+  width: 50%;
+}
+
+#gsm {
+  display: inline-block;
+  font-weight: bold;
+  width: auto;
+  padding: 16px;
+  font-size: 32px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+#nav {
+  width: 50%;
+  text-align: right;
+  font-weight: normal;
+  padding-top: 25px;
+  float: right;
+}
+
+#navbar li{
+  display: inline-block;
+  border-right: 2px solid #cccccc;
+  padding: 0 .25em;
+}
+  
+#navbar li:last-child { border: 0;}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  width: 99%;
+  left: 0px;
+  bottom: 0px;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  background: #666666;
+  border-top: 5px solid #4aaaa5;
+}
+
+/*Index*/
+
+section {
+  width: 960px;
+  clear: both;
+  margin: 0 auto 96px auto;
+}
+
+article, .contact {
+  display: inline-block;
+  width: 960px;
+  margin: 40px 0;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+
+}
+
+#h2{
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 16px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #dddddd;
+}
+
+#about {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+}
+
+#profile {
+  float: left;
+  padding: 0 16px 16px 0;
+  width: 200px;
+  height: 300px;
+}
+
+/* Portfolio */
+
+.item {
+  display: inline-block;
+  position: relative;
+  width: 270px;
+  height: 200px;
+  float: left;
+  margin: 30px 30px;
+  padding: 30px 30px;
+}
+
+.item-name {
+  position: relative;
+  text-align: center;
+  background: #4aaaa5;
+  color: #ffffff;
+  top: -100px;
+  z-index: 2;
+  width: 300px;
+  height: 30px;
+  padding: 10px auto 0 auto;
+}
+
+
+
+.itemimage {
+  height: 300px;
+  width: 300px;   
+}
+
+/*Contact*/
+
+.contact {
+  width: 540px;
+}
+
+label {
+  display: block;
+  padding-bottom: 8px;
+  margin: 5px 0 5px 0;
+}
+
+input, textarea {
+  width:100%;
+  border: 1px solid #cccccc;
+  margin-bottom: 24px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: auto;
+  background: #4aaaa5;
+  color: #ffffff;
+  border:none;
+  padding: 16px 32px;
+  font-size: 16px;
+}
